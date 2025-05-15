@@ -1,5 +1,7 @@
 # 🌤️ Weather App
 
+- 🔗 [Website](https://varun-u-pratap.github.io/weather/)
+
 A simple, responsive weather forecasting web application that fetches real-time weather data using the OpenWeatherMap API. This app allows users to enter a city name and receive detailed weather information including temperature, humidity, wind speed & direction, sunrise/sunset times, and more. The UI dynamically changes between day and night themes based on the time in the selected city.
 
 ## 🔧 Features
@@ -26,3 +28,4 @@ A simple, responsive weather forecasting web application that fetches real-time 
 **Varun U Pratap**
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/varun-u-pratap-856826340)
+- 🔗 [X](https://x.com/_varun_u_)
