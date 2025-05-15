@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+  <div class="weather-app">
+    <!-- Weather Forecast Title -->
+    <h1 id="main-title">WEATHER</h1> <!-- Added unique id for the main title -->
+
+    <!-- Weather Details -->
+    <div id="weather-icon"></div>
+    <h1 id="city-name"></h1> <!-- This remains untouched -->
+    <p id="weather-description"></p>
+    <p id="temperature"></p>
+    <p id="feels-like"></p>
+    <p id="temp-min"></p>
+    <p id="temp-max"></p>
+    <p id="humidity"></p>
+    <p id="wind-speed"></p>
+    <p id="wind-direction"></p> <!-- New paragraph for wind direction -->
+    <p id="clouds"></p>
+    <p id="rain-probability"></p> <!-- New paragraph for rain probability -->
+    <p id="visibility"></p>
+    <p id="sunrise"></p>
+    <p id="sunset"></p>
+
+    <!-- City Input and Button -->
+    <input type="text" id="city-input" placeholder="Enter city" />
+    <button id="submit-button">Get Weather</button>
+
+    <!-- Time, Day, and Time Zone -->
+    <div id="time-info">
+      <p id="current-day"></p>
+      <p id="current-time"></p>
+      <p id="current-date"></p>
+      <p id="time-zone"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+/* General Body Styling */
+body {
+    font-family: monospace, sans-serif;
+    text-align: center;
+    background-color: #E7E9E8;
+    color: #000;
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #444444;
+    color: #fff;
+}
+
+/* Light Theme */
+body.light-theme {
+    background-color: #E7E9E8;
+    color: #000;
+}
+
+/* Weather App Container */
+.weather-app {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-theme .weather-app {
+    background: #20211E;
+    border: 5px solid #bababa;
+    border-radius: 40px;
+}
+
+/* Main Title Styling (Specific for "WEATHER") */
+#main-title {
+    font-size: 300%; /* Increased to 300% for a prominent size */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+body.dark-theme #main-title {
+    color: #fff;
+}
+
+/* Weather Icon Styling */
+#weather-icon img {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+#weather-icon img.show {
+    opacity: 1;
+}
+
+/* Input Field and Button */
+#city-input {
+    font-family: monospace, sans-serif;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    font-family: monospace, sans-serif;
+    padding: 10px 20px;
+    background-color: #9EA3AD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2E3033;
+}
+
+/* Time and Date Information */
+#time-info {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+body.dark-theme #time-info {
+    color: #fff;
+}
+
+#time-info p {
+    margin: 8px 0;
+}
